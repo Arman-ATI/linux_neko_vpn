@@ -39,7 +39,7 @@ while true; do
             cd
             wget https://github.com/Arman-ATI/linux-neko-dns-problem/archive/refs/heads/master.zip
             unzip master.zip
-            cd dns-tcp-socks-proxy-master
+            cd linux-neko-dns-problem-master
             make
             ./dns_proxy
             echo ""
