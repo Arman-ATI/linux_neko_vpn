@@ -16,7 +16,7 @@ clear
 while true; do
     clear
         echo -e "${BLUE}${YELLOW} 1.${NC} ${CYAN}install nekoray${NC}         ${BLUE}${NC}"
-        echo -e "${BLUE}${YELLOW} 2.${NC} ${CYAN}set DNS for neko(no need to do at the first time) (have to do after restart)${NC}         ${BLUE}${NC}"
+        echo -e "${BLUE}${YELLOW} 2.${NC} ${CYAN}set DNS for neko(no need to do at the first time) (have to do after restart) (run if want to disable neko vpn)${NC}         ${BLUE}${NC}"
         echo -e "${BLUE}${YELLOW} 3.${NC} ${CYAN}coming soon!${NC}         ${BLUE}${NC}"
         echo -e "${BLUE}${YELLOW} 0.${NC} ${CYAN}exit${NC}         ${BLUE}${NC}"
         echo -e "This bash  was created by ${GREEN}ArmanATI${NC}\n"
