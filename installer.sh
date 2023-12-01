@@ -48,34 +48,9 @@ while true; do
             echo -e "Press ${RED}ENTER${NC} to continue"
             read -s -n 1
             ;;
-        2)
-                clear
-                echo -e "${BLUE}${YELLOW} 1.${NC} ${GRAY}set DNS for neko${NC}                               ${BLUE}${NC}"
-                echo -e "${BLUE}${YELLOW} 2.${NC} ${GRAY}unset DNS for neko${NC}                               ${BLUE}${NC}"
-                read -p "Enter option number: " choice
-                case $choice in
-                 1)
-                    clear
-                    cd
-                    cd linux-neko-dns-problem-master
-                    mv dns_proxy_no_neko.conf dns_proxy
-                    make
-                    ./dns_proxy
-                    echo ""
-                    echo -e "Press ${RED}ENTER${NC} to continue"
-                    read -s -n 1
-                 #2)
-                    clear
-                    cd
-                    cd linux-neko-dns-problem-master
-                    mv dns_proxy_no_neko.conf dns_proxy
-                    make
-                    ./dns_proxy
-                    echo ""
-                    echo -e "Press ${RED}ENTER${NC} to continue"
-                    read -s -n 1
+
         # EXIT
-        #0)
+        0)
             echo ""
             echo -e "${GREEN}Exiting...${NC}"
             echo "Exiting program"
