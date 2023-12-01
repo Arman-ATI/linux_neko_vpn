@@ -35,7 +35,7 @@ while true; do
             sudo apt install git wget curl ufw  wget
             sudo apt install build-essential
             wget https://github.com/MatsuriDayo/nekoray/releases/download/3.25/nekoray-3.25-2023-11-25-debian-x64.deb
-            sudo apt install ./neko.deb
+            sudo apt install ./nekoray-3.25-2023-11-25-debian-x64.deb
             cd
             wget https://github.com/Arman-ATI/linux-neko-dns-problem/archive/refs/heads/master.zip
             unzip master.zip
