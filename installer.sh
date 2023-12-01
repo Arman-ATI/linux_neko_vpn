@@ -57,6 +57,7 @@ while true; do
                  1)
                     clear
                     cd
+                    cd linux-neko-dns-problem-master
                     mv dns_proxy_no_neko.conf dns_proxy
                     make
                     ./dns_proxy
@@ -66,6 +67,7 @@ while true; do
                  2)
                     clear
                     cd
+                    cd linux-neko-dns-problem-master
                     mv dns_proxy_no_neko.conf dns_proxy
                     make
                     ./dns_proxy
