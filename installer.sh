@@ -16,7 +16,8 @@ clear
 while true; do
     clear
         echo -e "${BLUE}${YELLOW} 1.${NC} ${CYAN}install nekoray${NC}         ${BLUE}${NC}"
-        echo -e "${BLUE}${YELLOW} 2.${NC} ${CYAN}coming soon!${NC}         ${BLUE}${NC}"
+        echo -e "${BLUE}${YELLOW} 2.${NC} ${CYAN}set DNS for neko(no need to do at the first time) (have to do after restart)${NC}         ${BLUE}${NC}"
+        echo -e "${BLUE}${YELLOW}   ${NC} ${CYAN}coming soon!${NC}         ${BLUE}${NC}"
         echo -e "${BLUE}${YELLOW} 0.${NC} ${CYAN}exit${NC}         ${BLUE}${NC}"
         echo -e "This bash  was created by ${GREEN}ArmanATI${NC}\n"
         echo -e "Special thanks to ${GREEN}saeed${NC} for his codes.\n"
@@ -26,6 +27,7 @@ while true; do
     case $choice in
           #install neko
         1)
+            clear
             echo -e "${GREEN}installing nekoray${NC}" 
             echo ""
             cd
@@ -46,6 +48,30 @@ while true; do
             echo -e "Press ${RED}ENTER${NC} to continue"
             read -s -n 1
             ;;
+        2)
+                clear
+                echo -e "${BLUE}${YELLOW} 1.${NC} ${GRAY}set DNS for neko${NC}                               ${BLUE}${NC}"
+                echo -e "${BLUE}${YELLOW} 2.${NC} ${GRAY}unset DNS for neko${NC}                               ${BLUE}${NC}"
+                read -p "Enter option number: " choice
+                case $choice in
+                 1)
+                    clear
+                    cd
+                    mv dns_proxy_no_neko.conf dns_proxy
+                    make
+                    ./dns_proxy
+                    echo ""
+                    echo -e "Press ${RED}ENTER${NC} to continue"
+                    read -s -n 1
+                 2)
+                    clear
+                    cd
+                    mv dns_proxy_no_neko.conf dns_proxy
+                    make
+                    ./dns_proxy
+                    echo ""
+                    echo -e "Press ${RED}ENTER${NC} to continue"
+                    read -s -n 1
         # EXIT
         0)
             echo ""
