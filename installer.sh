@@ -35,7 +35,6 @@ while true; do
             sudo apt install git wget curl ufw  wget -y
             sudo apt install build-essential -y
             sudo apt install unzip -y
-            sudo apt install gunzip -y
             wget https://github.com/MatsuriDayo/nekoray/releases/download/3.25/nekoray-3.25-2023-11-25-debian-x64.deb
             sudo apt install ./nekoray-3.25-2023-11-25-debian-x64.deb -y
             cd
