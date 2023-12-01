@@ -17,10 +17,10 @@ sleep .5
 clear
 while true; do
     clear
-        echo -e "${BLUE}|${YELLOW} 1.${NC} ${CYAN}install nekoray${NC}         ${BLUE}|${NC}"
-        echo -e "${BLUE}|${YELLOW} 1.${NC} ${CYAN}coming soon!${NC}         ${BLUE}|${NC}"
-        echo -e "${BLUE}|${YELLOW} 1.${NC} ${CYAN}exit${NC}         ${BLUE}|${NC}"
-        echo -e "This bash  was created by ${GREEN}ArmanATI1${NC}\n"
+        echo -e "${BLUE}${YELLOW} 1.${NC} ${CYAN}install nekoray${NC}         ${BLUE}${NC}"
+        echo -e "${BLUE}${YELLOW} 2.${NC} ${CYAN}coming soon!${NC}         ${BLUE}${NC}"
+        echo -e "${BLUE}${YELLOW} 0.${NC} ${CYAN}exit${NC}         ${BLUE}${NC}"
+        echo -e "This bash  was created by ${GREEN}ArmanATI${NC}\n"
         echo -e "Special thanks to ${GREEN}saeed${NC} for his codes.\n"
 
 
