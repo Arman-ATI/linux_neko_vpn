@@ -49,6 +49,7 @@ while true; do
             read -s -n 1
             ;;
         2)
+                while true; do
                 clear
                 echo -e "${BLUE}${YELLOW} 1.${NC} ${GRAY}set DNS for neko${NC}                               ${BLUE}${NC}"
                 echo -e "${BLUE}${YELLOW} 2.${NC} ${GRAY}unset DNS for neko${NC}                               ${BLUE}${NC}"
