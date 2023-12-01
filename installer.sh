@@ -17,7 +17,7 @@ while true; do
     clear
         echo -e "${BLUE}${YELLOW} 1.${NC} ${CYAN}install nekoray${NC}         ${BLUE}${NC}"
         echo -e "${BLUE}${YELLOW} 2.${NC} ${CYAN}set DNS for neko(no need to do at the first time) (have to do after restart)${NC}         ${BLUE}${NC}"
-        echo -e "${BLUE}${YELLOW}   ${NC} ${CYAN}coming soon!${NC}         ${BLUE}${NC}"
+        echo -e "${BLUE}${YELLOW} 3.${NC} ${CYAN}coming soon!${NC}         ${BLUE}${NC}"
         echo -e "${BLUE}${YELLOW} 0.${NC} ${CYAN}exit${NC}         ${BLUE}${NC}"
         echo -e "This bash  was created by ${GREEN}ArmanATI${NC}\n"
         echo -e "Special thanks to ${GREEN}saeed${NC} for his codes.\n"
