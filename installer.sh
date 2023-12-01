@@ -64,6 +64,7 @@ while true; do
                     echo ""
                     echo -e "Press ${RED}ENTER${NC} to continue"
                     read -s -n 1
+                    ;;
                  2)
                     clear
                     cd
@@ -74,6 +75,7 @@ while true; do
                     echo ""
                     echo -e "Press ${RED}ENTER${NC} to continue"
                     read -s -n 1
+                    ;;
           ;;
         # EXIT
         0)
