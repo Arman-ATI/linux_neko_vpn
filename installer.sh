@@ -65,7 +65,7 @@ while true; do
                     echo ""
                     echo -e "Press ${RED}ENTER${NC} to continue"
                     read -s -n 1
-                 2)
+                 #2)
                     clear
                     cd
                     cd linux-neko-dns-problem-master
