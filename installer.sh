@@ -49,7 +49,6 @@ while true; do
             read -s -n 1
             ;;
         2)
-                while true; do
                 clear
                 echo -e "${BLUE}${YELLOW} 1.${NC} ${GRAY}set DNS for neko${NC}                               ${BLUE}${NC}"
                 echo -e "${BLUE}${YELLOW} 2.${NC} ${GRAY}unset DNS for neko${NC}                               ${BLUE}${NC}"
@@ -76,7 +75,7 @@ while true; do
                     echo -e "Press ${RED}ENTER${NC} to continue"
                     read -s -n 1
         # EXIT
-        0)
+        #0)
             echo ""
             echo -e "${GREEN}Exiting...${NC}"
             echo "Exiting program"
