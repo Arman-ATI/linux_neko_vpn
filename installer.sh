@@ -76,7 +76,6 @@ while true; do
                     echo -e "Press ${RED}ENTER${NC} to continue"
                     read -s -n 1
                     ;;
-          ;;
         # EXIT
         0)
             echo ""
